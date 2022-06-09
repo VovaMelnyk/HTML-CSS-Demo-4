@@ -1,0 +1,69 @@
+/* .hover-title {
+  display: none;
+}
+
+.hover-container:hover .hover-title {
+  display: block;
+}
+
+.hover-container:hover .title {
+  display: none;
+} */
+
+/* .hover-container {
+  background:  red 50%;
+} */
+
+/* .slider-img {
+  width: 1000px;
+  height: 1000px;
+}
+
+p {
+  color: orange !important; 
+}
+
+p#text-id.text {
+  color: blue;
+} */
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #808080;
+  --accent-color: #b00000;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+  --normal-font: 400;
+  --medium-font: 600;
+  --bold-font: 700;
+  --bolder-font: 800;
+  --primary-font-size: 12px;
+}
+
+body {
+  font-size: var(--primary-font-size);
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.content {
+  width: 1285px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+}
+
+/* end header */
+
+/* slider */
+
+/* description */
+
+/* plans */
+
+/* footer  */

@@ -10,7 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet preconnect" href="./normileze.css">
+    <link rel="stylesheet preconnect" href="./styles/header.css">
+    <link rel="stylesheet preconnect" href="./styles/common.css">
     <title>Demo site</title>
     <!-- <style>
         table,
@@ -24,28 +26,45 @@
 
 <body>
     <!-- heder -->
-    <header class="header">
-        <a href="#">
-            <img src="./images/logo.png" alt="logo">
+    <header class="header content">
+        <a href="#" class="logo">
+            <img src="./images/logo.png" alt="logo" width="90" height="60">
         </a>
-        <nav>
-            <ul>
-                <li class="menu-item" id="service">Our Services</li>
-                <li>About</li>
-                <li>Blog&News</li>
-                <li>Contact</li>
-                <li>Account</li>
+        <nav class="menu">
+            <ul class="menu-list list">
+                <li class="menu-item">
+                    <a href="" class="menu-link">Our Services</a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">About</a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        Blog & News
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        Contact
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        Account
+                    </a>
+                </li>
             </ul>
         </nav>
-        <div>
-            <img src="./images/phone.svg" alt="phone">
-            <a href="tel:+2349067322844">+2349067322844</a>
+        <div class="contacts">
+            <img src="./images/phone.svg" alt="phone" class="phone">
+            <a href="tel:+2349067322844" class="menu-link">+2349067322844</a>
         </div>
     </header>
-    <main>
+    <main class="content">
+        <!-- slider -->
         <section class="slider">
             <article>
-                <ul>
+                <ul class="list">
                     <li class="slider-item">Hosting</li>
                     <li>Domain</li>
                     <li>SEO</li>
@@ -58,8 +77,14 @@
                 <button class="contained">Create an Account</button>
                 <button class="outlined">Choose your plan</button>
             </article>
-            <img src="./images/hosting.png" alt="hosting">
+            <!-- <div class="hover-container"> -->
+            <img src="./images/hosting.png" alt="hosting" width="300" height="300" class="slider-img">
+            <!-- <p class="title">Title</p> -->
+            <!-- <p class="hover-title">Hover Title</p> -->
+            <!-- </div> -->
+
         </section>
+        <!-- description -->
         <section class="description">
             <div class="top-content">
                 <article class="info">
@@ -111,6 +136,7 @@
                 </article>
             </div>
         </section>
+        <!-- plans -->
         <section class="plans">
             <h2>Ready to get started with
                 Lemon Wares?</h2>
@@ -204,7 +230,8 @@
             </tbody>
         </table> -->
     </main>
-    <footer>
+    <!-- footer -->
+    <footer class="content">
         <p>Built by Jeremiah with love in Lagos. Copyright 2021 <span>&#169;</span></p>
     </footer>
 </body>
